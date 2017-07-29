@@ -19,6 +19,8 @@ RUN yum makecache fast \
   && yum -y --setopt=tsflags=nodocs install \
   rpm-build \
   rpmdevtools \
+  make \
+  gcc \
   && yum clean all \
   && touch ~/.rpmmacros
 
