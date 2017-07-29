@@ -4,7 +4,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
-      org.label-schema.name="rpm-builder \
+      org.label-schema.name="rpm-builder" \
       org.label-schema.description="Centos 7 image with utils for builds packages in rpm" \
       org.label-schema.url="http://andradaprieto.es" \
       org.label-schema.vcs-ref=$VCS_REF \
